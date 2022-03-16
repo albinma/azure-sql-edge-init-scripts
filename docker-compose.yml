@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  azure-sql-edge:
+    container_name: azure-sql-edge
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
